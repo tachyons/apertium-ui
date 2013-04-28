@@ -1,0 +1,9 @@
+<glade-catalog name="preferences_apertium_ui_dialog" domain="glade-3" 
+               depends="gtk+" version="1.0">
+  <glade-widget-classes>
+    <glade-widget-class title="Apertium Ui Preferences Dialog" name="PreferencesApertiumUiDialog" 
+                        generic-name="PreferenceApertiumUiDialog" parent="GtkDialog"
+                        icon-name="widget-gtk-dialog"/>
+  </glade-widget-classes>
+
+</glade-catalog>

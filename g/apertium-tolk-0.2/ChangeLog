@@ -1,0 +1,596 @@
+2008-02-13 09:39  ftyers
+
+	* Makefile.am, tolk.glade: Ooops, fixing something
+
+2008-02-13 09:14  ftyers
+
+	* configure.in: Minor fix to build messages
+
+2008-02-13 09:11  ftyers
+
+	* configure.in: Fixing some build messages
+
+2008-02-13 08:52  ftyers
+
+	* po/vi.po: Add email addr
+
+2008-02-13 07:16  ftyers
+
+	* po/LINGUAS, po/vi.po: Adding vietnamese
+
+2008-02-11 13:42  ftyers
+
+	* po/LINGUAS, po/en.po, po/tg.po: Adding Tajik
+
+2008-02-11 11:09  ftyers
+
+	* po/LINGUAS, po/az.po, po/eu.po, po/oc.po, po/ru.po, po/sl.po: Add
+	  Basque, Russian, Azerbaijani. Fix Occitan, Slovenian.
+
+2008-02-11 10:19  ftyers
+
+	* po/gl.po: Changing Galician translation
+
+2008-02-11 09:35  ftyers
+
+	* po/LINGUAS: Removing portuguese from checked
+
+2008-02-11 09:34  ftyers
+
+	* po/LINGUAS, po/README, po/de.po, po/it.po, po/nap.po, po/pms.po:
+	  Updating de translation, adding it, pms, nap
+
+2008-02-10 18:35  ftyers
+
+	* po/LINGUAS, po/bg.po, po/sh.po: Updating sh and adding bg
+
+2008-02-10 18:22  ftyers
+
+	* po/LINGUAS, po/se.po: Adding Swedish
+
+2008-02-10 17:37  ftyers
+
+	* po/af.po, po/ca.po, po/cy.po, po/da.po, po/de.po, po/en.po,
+	  po/eo.po, po/es.po, po/fr.po, po/ga.po, po/gl.po, po/is.po,
+	  po/mk.po, po/nl.po, po/no.po, po/oc.po, po/pl.po, po/pt.po,
+	  po/ro.po, po/sh.po, po/sl.po, po/tr.po, po/ur.po: Fixing version
+	  and adding to Urdu translation
+
+2008-02-10 17:27  ftyers
+
+	* po/LINGUAS, po/ur.po: Adding Urdu
+
+2008-02-10 17:03  ftyers
+
+	* po/pl.po: Fixing odd error in pl.po
+
+2008-02-10 16:54  ftyers
+
+	* po/af.po, po/ca.po, po/cy.po, po/da.po, po/de.po, po/en.po,
+	  po/eo.po, po/es.po, po/fr.po, po/ga.po, po/gl.po, po/is.po,
+	  po/mk.po, po/nl.po, po/no.po, po/oc.po, po/pl.po, po/pt.po,
+	  po/ro.po, po/sh.po, po/sl.po, po/tr.po: Updating po files
+
+2008-02-10 15:06  ftyers
+
+	* ACKNOWLEDGEMENTS, TODO: Adding acknowledgements for the
+	  emblem-web and adding something to the TODO
+
+2008-02-10 14:33  ftyers
+
+	* po/eo.po: Making esperanto fixes
+
+2008-02-10 14:13  ftyers
+
+	* po/LINGUAS, po/mk.po: Adding Macedonian
+
+2008-02-10 12:27  ftyers
+
+	* Makefile.am, emblem-web.svg, po/LINGUAS, po/gl.po: Adding
+	  galician, and emblem-web
+
+2008-02-10 11:21  ftyers
+
+	* po/af.po: Thanks Frank!
+
+2008-02-10 03:13  jimregan
+
+	* po/pl.po: Not that it's used (yet), but add the proper plural
+	  line.
+	  Also - it's 2008, not 2007!
+
+2008-02-09 21:12  ftyers
+
+	* po/da.po, po/is.po: Danish + Icelandic names
+
+2008-02-09 21:03  ftyers
+
+	* po/da.po, po/nl.po, po/no.po, po/sh.po, po/tr.po: Updating some
+	  more translations
+
+2008-02-09 20:58  ftyers
+
+	* po/mensajes.pot, po/oc.po: Adding new string to mensajes and
+	  updating user of oc
+
+2008-02-09 20:54  ftyers
+
+	* po/de.po, po/eo.po, po/ga.po, po/is.po, po/pl.po, po/ro.po,
+	  po/sl.po: Adding a few translations of 'translator'
+
+2008-02-09 20:42  ftyers
+
+	* po/ChangeLog: Adding changelog
+
+2008-02-09 20:41  ftyers
+
+	* prefix.py.in: Adding prefix.py.in
+
+2008-02-09 20:40  ftyers
+
+	* __init__.py, apertium-tolk.desktop.in: Add __init__.py for the
+	  module and update desktop file
+
+2008-02-09 20:37  ftyers
+
+	* po/LINGUAS, po/af.po, po/ca.po, po/cy.po, po/de.po, po/es.po,
+	  po/fr.po, po/oc.po, po/pl.po, po/pt.po: Add a translation, and
+	  add the menu name to some of the others
+
+2008-02-09 20:27  ftyers
+
+	* tolk.glade: Adding interim logo
+
+2008-02-09 20:18  ftyers
+
+	* tolk.glade: Uppercase to lowercase
+
+2008-02-09 20:15  ftyers
+
+	* trunk/apertium-dbus, trunk/apertium-dbus/AUTHORS,
+	  trunk/apertium-dbus/ChangeLog, trunk/apertium-dbus/Makefile.am,
+	  trunk/apertium-dbus/NEWS, trunk/apertium-dbus/README,
+	  trunk/apertium-dbus/autogen.sh, trunk/apertium-dbus/configure.in,
+	  trunk/apertium-dbus/org.apertium.info.service.in,
+	  trunk/apertium-dbus/org.apertium.mode.service.in,
+	  trunk/apertium-dbus/setup.py, trunk/apertium-dbus/src, .,
+	  AUTHORS, COPYING, ChangeLog, Makefile.am, NEWS, README, TODO,
+	  apertium-tolk, apertium-tolk.1, apertium-tolk.desktop.in,
+	  autogen.sh, configure.in, glade.py, i18n.py, po, py-compile,
+	  simplegeneric.py, tolk.glade, widget_state.py,
+	  trunk/apertium-tools/apertium-dbus,
+	  trunk/apertium-tools/apertium-tolk: Moving tolk/dbus to main
+	  trunk
+
+2008-02-09 17:01  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/po/LINGUAS,
+	  trunk/apertium-tools/apertium-tolk/po/nl.po: Adding dutch
+
+2008-02-09 16:59  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/po/af.po: Adding AF
+
+2008-02-09 16:58  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/po/LINGUAS,
+	  trunk/apertium-tools/apertium-tolk/po/da.po,
+	  trunk/apertium-tools/apertium-tolk/po/no.po: Add a couple more
+	  translations
+
+2008-02-09 16:47  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/po/LINGUAS,
+	  trunk/apertium-tools/apertium-tolk/po/eo.po,
+	  trunk/apertium-tools/apertium-tolk/po/sh.po,
+	  trunk/apertium-tools/apertium-tolk/po/sl.po: Adding more
+	  translations
+
+2008-02-09 16:14  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/README: Adding errors to
+	  readme
+
+2008-02-09 16:07  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/apertium-tolk,
+	  trunk/apertium-tools/apertium-tolk/glade.py,
+	  trunk/apertium-tools/apertium-tolk/i18n.py: Woo
+
+2008-02-09 15:51  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/po/LINGUAS,
+	  trunk/apertium-tools/apertium-tolk/po/pt.po: Adding portuguese
+
+2008-02-09 15:48  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/po/LINGUAS,
+	  trunk/apertium-tools/apertium-tolk/po/fr.po: Adding french
+
+2008-02-09 14:25  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/Makefile.am,
+	  trunk/apertium-tools/apertium-tolk/TODO,
+	  trunk/apertium-tools/apertium-tolk/apertium-tolk,
+	  trunk/apertium-tools/apertium-tolk/apertium-tolk.1,
+	  trunk/apertium-tools/apertium-tolk/apertium-tolk.desktop.in,
+	  trunk/apertium-tools/apertium-tolk/autogen.sh,
+	  trunk/apertium-tools/apertium-tolk/glade.py,
+	  trunk/apertium-tools/apertium-tolk/py-compile: Fixing default
+	  config and various other stuff
+
+2008-02-09 00:32  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/apertium-tolk.desktop.in: Fix
+	  name
+
+2008-02-08 23:45  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/Makefile.am: More makefile
+	  fixes
+
+2008-02-08 23:33  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/Makefile.am,
+	  trunk/apertium-tools/apertium-tolk/configure.in,
+	  trunk/apertium-tools/apertium-tolk/tolk.glade: Upping version and
+	  adding manpage to makefile
+
+2008-02-08 22:22  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/defaults.cfg: Removing default
+	  config -- moved into glade.py
+
+2008-02-08 22:21  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/apertium-tolk,
+	  trunk/apertium-tools/apertium-tolk/glade.py: Fixing some more
+	  stuff
+
+2008-02-08 21:51  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/apertium-tolk: one more fix...
+
+2008-02-08 21:33  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/po/ca.po: Fixing catalan
+
+2008-02-08 21:31  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/Makefile.am: Almost there...
+
+2008-02-08 19:41  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/Makefile.am,
+	  trunk/apertium-tools/apertium-tolk/apertium-tolk: Fixing some
+	  stuff
+
+2008-02-08 14:21  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/Makefile.am,
+	  trunk/apertium-tools/apertium-tolk/apertium-tolk,
+	  trunk/apertium-tools/apertium-tolk/apertium-tolk.py: More stuff
+
+2008-02-08 12:40  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/po/POTFILES.in,
+	  trunk/apertium-tools/apertium-tolk/po/cy.po,
+	  trunk/apertium-tools/apertium-tolk/po/en.po,
+	  trunk/apertium-tools/apertium-tolk/po/es.po,
+	  trunk/apertium-tools/apertium-tolk/po/ro.po: Updating encoding
+	  and adding POTFILES.in
+
+2008-02-08 11:30  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/ChangeLog,
+	  trunk/apertium-tools/apertium-tolk/NEWS: Adding changelog+news
+	  for autoconf
+
+2008-02-08 11:28  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/Makefile.am: Adding
+	  makefile.am
+
+2008-02-08 11:27  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/configure.in: Adding
+	  configure.in file
+
+2008-02-08 10:58  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/po/Makefile.in.in,
+	  trunk/apertium-tools/apertium-tolk/po/POTFILES.in: Removing and
+	  adding
+
+2008-02-08 10:54  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/apertium-tolk.desktop.in,
+	  trunk/apertium-tools/apertium-tolk/autogen.sh,
+	  trunk/apertium-tools/apertium-tolk/po/LINGUAS,
+	  trunk/apertium-tools/apertium-tolk/po/Makefile.am,
+	  trunk/apertium-tools/apertium-tolk/po/Makefile.in.in,
+	  trunk/apertium-tools/apertium-tolk/po/cy.po: Breaking some stuff
+	  to fix some stuff
+
+2008-02-07 23:18  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/Makefile,
+	  trunk/apertium-tools/apertium-tolk/apertium-tolk.py,
+	  trunk/apertium-tools/apertium-tolk/autogen.sh,
+	  trunk/apertium-tools/apertium-tolk/i18n.py,
+	  trunk/apertium-tools/apertium-tolk/po/Makefile.am,
+	  trunk/apertium-tools/apertium-tolk/po/cy.po: Fixing some various
+	  stuff -- this still needs to be i18nd
+
+2008-02-07 22:39  ftyers
+
+	* trunk/apertium-tools/apertium-tolk/AUTHORS,
+	  trunk/apertium-tools/apertium-tolk/COPYING,
+	  trunk/apertium-tools/apertium-tolk/Makefile,
+	  trunk/apertium-tools/apertium-tolk/README,
+	  trunk/apertium-tools/apertium-tolk/apertium-tolk.1,
+	  trunk/apertium-tools/apertium-tolk/dbus,
+	  trunk/apertium-tools/apertium-tolk/po/Makefile.am,
+	  trunk/apertium-tools/apertium-tolk/po/ca.po,
+	  trunk/apertium-tools/apertium-tolk/po/cy.po,
+	  trunk/apertium-tools/apertium-tolk/po/en.po,
+	  trunk/apertium-tools/apertium-tolk/po/es.po,
+	  trunk/apertium-tools/apertium-tolk/po/mensajes.pot,
+	  trunk/apertium-tools/apertium-tolk/po/ro.po,
+	  trunk/apertium-tools/apertium-tolk/tolk: Adding and moving some
+	  stuff
+
+2008-01-19 14:43  ftyers
+
+	* apertium-forms-server, apertium-tools,
+	  trunk/apertium-forms-server, trunk/apertium-tools: Moving more
+	  modules
+
+2007-12-27 15:23  Winterstream
+
+	* apertium-tools/apertium-tolk/glade.py,
+	  apertium-tools/apertium-tolk/simplegeneric.py,
+	  apertium-tools/apertium-tolk/widget_state.py: Replaced the
+	  unwieldy and ugly state saving/restoring code with nice,
+	  clean and simple generic methods.
+
+2007-12-24 23:35  Winterstream
+
+	* apertium-tools/apertium-tolk/tolk: Fixlet for tolk script. It
+	  should now work regardless of
+	  the location from which it is invoked.
+
+2007-12-19 19:11  Winterstream
+
+	* apertium-tools/apertium-tolk/dbus.rb,
+	  apertium-tools/apertium-tolk/dbus/auth.rb,
+	  apertium-tools/apertium-tolk/dbus/bus.rb,
+	  apertium-tools/apertium-tolk/dbus/export.rb,
+	  apertium-tools/apertium-tolk/dbus/introspect.rb,
+	  apertium-tools/apertium-tolk/dbus/marshall.rb,
+	  apertium-tools/apertium-tolk/dbus/matchrule.rb,
+	  apertium-tools/apertium-tolk/dbus/message.rb,
+	  apertium-tools/apertium-tolk/dbus/type.rb,
+	  apertium-tools/apertium-tolk/simple-viewer.rb,
+	  apertium-tools/simple-web-service/README,
+	  apertium-tools/simple-web-service/apertium_service.py,
+	  apertium-tools/simple-web-service/static/interface/index.html,
+	  apertium-tools/simple-web-service/static/js.tar.bz2,
+	  apertium-tools/simple-web-service/web/__init__.py,
+	  apertium-tools/simple-web-service/web/cheetah.py,
+	  apertium-tools/simple-web-service/web/db.py,
+	  apertium-tools/simple-web-service/web/debugerror.py,
+	  apertium-tools/simple-web-service/web/form.py,
+	  apertium-tools/simple-web-service/web/http.py,
+	  apertium-tools/simple-web-service/web/httpserver.py,
+	  apertium-tools/simple-web-service/web/net.py,
+	  apertium-tools/simple-web-service/web/request.py,
+	  apertium-tools/simple-web-service/web/template.py,
+	  apertium-tools/simple-web-service/web/utils.py,
+	  apertium-tools/simple-web-service/web/webapi.py,
+	  apertium-tools/simple-web-service/web/wsgi.py,
+	  apertium-tools/simple-web-service/web/wsgiserver/LICENSE.txt,
+	  apertium-tools/simple-web-service/web/wsgiserver/__init__.py,
+	  apertium-tools/simple-web-service/web/wsgiserver/__init__.pyc,
+	  attic, attic/apertium-tolk-ruby, attic/apertium-tolk-ruby/dbus,
+	  attic/apertium-tolk-ruby/dbus.rb,
+	  attic/apertium-tolk-ruby/dbus/auth.rb,
+	  attic/apertium-tolk-ruby/dbus/bus.rb,
+	  attic/apertium-tolk-ruby/dbus/export.rb,
+	  attic/apertium-tolk-ruby/dbus/introspect.rb,
+	  attic/apertium-tolk-ruby/dbus/marshall.rb,
+	  attic/apertium-tolk-ruby/dbus/matchrule.rb,
+	  attic/apertium-tolk-ruby/dbus/message.rb,
+	  attic/apertium-tolk-ruby/dbus/type.rb,
+	  attic/apertium-tolk-ruby/simple-viewer.rb,
+	  attic/simple-web-service, attic/simple-web-service/README,
+	  attic/simple-web-service/apertium_service.py,
+	  attic/simple-web-service/static,
+	  attic/simple-web-service/static/interface,
+	  attic/simple-web-service/static/interface/index.html,
+	  attic/simple-web-service/static/js.tar.bz2,
+	  attic/simple-web-service/web,
+	  attic/simple-web-service/web/__init__.py,
+	  attic/simple-web-service/web/cheetah.py,
+	  attic/simple-web-service/web/db.py,
+	  attic/simple-web-service/web/debugerror.py,
+	  attic/simple-web-service/web/form.py,
+	  attic/simple-web-service/web/http.py,
+	  attic/simple-web-service/web/httpserver.py,
+	  attic/simple-web-service/web/net.py,
+	  attic/simple-web-service/web/request.py,
+	  attic/simple-web-service/web/template.py,
+	  attic/simple-web-service/web/utils.py,
+	  attic/simple-web-service/web/webapi.py,
+	  attic/simple-web-service/web/wsgi.py,
+	  attic/simple-web-service/web/wsgiserver,
+	  attic/simple-web-service/web/wsgiserver/LICENSE.txt,
+	  attic/simple-web-service/web/wsgiserver/__init__.py,
+	  attic/simple-web-service/web/wsgiserver/__init__.pyc: Moved
+	  unmaintained code to the attic
+
+2007-12-19 15:20  Winterstream
+
+	* apertium-tools/apertium-tolk/tolk: Fixed the shell file
+
+2007-12-19 07:46  ftyers
+
+	* apertium-tools/apertium-py, apertium-tools/apertium-tolk,
+	  apertium-tools/apertium-view/TextWidget.py,
+	  apertium-tools/simple-viewer: Moving
+
+2007-12-18 18:40  ftyers
+
+	* apertium-tools/simple-viewer/apertium-tolk.py,
+	  apertium-tools/simple-viewer/po/es.po,
+	  apertium-tools/simple-viewer/tolk_main.py: Move
+
+2007-12-18 18:22  Winterstream
+
+	* apertium-tools/simple-viewer/main_window.glade,
+	  apertium-tools/simple-viewer/simple-viewer.py,
+	  apertium-tools/simple-viewer/tolk,
+	  apertium-tools/simple-viewer/tolk.glade,
+	  apertium-tools/simple-viewer/tolk_main.py: Renamed files to
+	  reflect the program's name
+
+2007-12-18 18:15  Winterstream
+
+	* apertium-tools/simple-viewer/glade.py,
+	  apertium-tools/simple-viewer/simple-viewer.py: Minor refactoring
+	  and more comments
+
+2007-12-18 17:55  Winterstream
+
+	* apertium-tools/simple-viewer/simple-viewer.py: Added more
+	  comments
+
+2007-12-18 17:54  Winterstream
+
+	* apertium-tools/simple-viewer/simple-viewer.py: Moved the
+	  translator thread function out of the __init__ function.
+	  It is now a method of MainWindow.
+
+2007-12-18 17:52  Winterstream
+
+	* apertium-tools/simple-viewer/simple-viewer.py: Added comments
+
+2007-12-18 17:51  Winterstream
+
+	* apertium-tools/simple-viewer/glade.py,
+	  apertium-tools/simple-viewer/i18n.py,
+	  apertium-tools/simple-viewer/simple-viewer.py: Pulled custom
+	  glade code into separate file.
+	  Pulled internationalization code into separate file.
+
+2007-12-18 17:50  Winterstream
+
+	* apertium-tools/simple-viewer/simple-viewer.py,
+	  apertium-tools/simple-viewer/widget_state.py: Moved the widget
+	  state load/dump code to a separate file. Also added
+	  comments to that code to make it clearer.
+
+2007-12-18 00:03  Winterstream
+
+	* apertium-tools/simple-viewer/Makefile,
+	  apertium-tools/simple-viewer/po/ca.po: Added xerakko's Catalan
+	  translation
+
+2007-12-17 23:21  Winterstream
+
+	* apertium-tools/simple-viewer/main_window.glade: Updated the
+	  program name to apertium-talk
+
+2007-12-17 23:13  Winterstream
+
+	* apertium-tools/simple-viewer/tolk,
+	  apertium-tools/simple-viewer/viewer: Renamed viewer -> tolk
+	  
+	  It also now runs the Python version. The Ruby version will be
+	  retired.
+
+2007-12-17 23:09  Winterstream
+
+	* apertium-tools/simple-viewer/defaults.cfg: Added default
+	  preferences file
+
+2007-12-17 21:22  Winterstream
+
+	* apertium-tools/simple-viewer/simple-viewer.rb: Fixed possible
+	  memory error ...
+
+2007-12-17 16:07  ftyers
+
+	* apertium-tools/simple-viewer/Makefile,
+	  apertium-tools/simple-viewer/simple-viewer.py:
+	  Internationalisation
+
+2007-12-17 15:41  Winterstream
+
+	* apertium-tools/simple-viewer/simple-viewer.py: Finished off the
+	  Python port
+
+2007-12-17 12:56  Winterstream
+
+	* apertium-tools/simple-viewer/simple-viewer.py,
+	  apertium-tools/simple-viewer/simple-viewer.rb: Fixed some bugs in
+	  the Ruby version of the viewer during the porting to Python.
+	  
+	  The Python port is about 75% done. It works, so use it! :)
+
+2007-12-17 12:13  ftyers
+
+	* apertium-tools/simple-viewer/po,
+	  apertium-tools/simple-viewer/po/en.po,
+	  apertium-tools/simple-viewer/po/es.po,
+	  apertium-tools/simple-viewer/po/mensajes.pot,
+	  apertium-tools/simple-viewer/simple-viewer.py: Adding
+	  localisation files
+
+2007-12-17 10:44  ftyers
+
+	* apertium-tools/simple-viewer/simple-viewer.py: Adding python
+	  version
+
+2007-12-17 00:20  Winterstream
+
+	* apertium-tools/apertium-dbus/mode.py,
+	  apertium-tools/simple-viewer/dbus/bus.rb,
+	  apertium-tools/simple-viewer/dbus/introspect.rb,
+	  apertium-tools/simple-viewer/dbus/marshall.rb,
+	  apertium-tools/simple-viewer/dbus/message.rb,
+	  apertium-tools/simple-viewer/main_window.glade,
+	  apertium-tools/simple-viewer/simple-viewer.rb: The simple viewer
+	  for Apertium is basically done.
+
+2007-12-17 00:19  Winterstream
+
+	* apertium-tools/apertium-dbus/info.py,
+	  apertium-tools/simple-viewer/dbus,
+	  apertium-tools/simple-viewer/dbus.rb,
+	  apertium-tools/simple-viewer/dbus/auth.rb,
+	  apertium-tools/simple-viewer/dbus/bus.rb,
+	  apertium-tools/simple-viewer/dbus/export.rb,
+	  apertium-tools/simple-viewer/dbus/introspect.rb,
+	  apertium-tools/simple-viewer/dbus/marshall.rb,
+	  apertium-tools/simple-viewer/dbus/matchrule.rb,
+	  apertium-tools/simple-viewer/dbus/message.rb,
+	  apertium-tools/simple-viewer/dbus/type.rb,
+	  apertium-tools/simple-viewer/main_window.glade,
+	  apertium-tools/simple-viewer/simple-viewer.rb,
+	  apertium-tools/simple-viewer/viewer: Added dbus library for the
+	  simple viewer.
+	  Added a slight bit of functionality to the viewer.
+
+2007-12-13 00:43  Winterstream
+
+	* apertium-tools/simple-viewer/main_window.glade: Modification to
+	  the glade file
+
+2007-12-13 00:43  Winterstream
+
+	* apertium-tools/simple-viewer,
+	  apertium-tools/simple-viewer/main_window.glade,
+	  apertium-tools/simple-viewer/simple-viewer.rb: Added beginnings
+	  of simple Apertium viewer
+

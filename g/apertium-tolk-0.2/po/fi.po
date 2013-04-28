@@ -1,0 +1,28 @@
+# translation of mensajes.po to Finnish
+# Copyright (C) 2008 Niklas Laxström
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Niklas Laxström <niklas.laxstrom+trans@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: mensajes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-12-17 12:04+0000\n"
+"PO-Revision-Date: 2008-02-13 19:04+0200\n"
+"Last-Translator: Niklas Laxström <niklas.laxstrom+trans@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: main_window.glade.h:2
+msgid "Mark unknown words"
+msgstr "Merkitse tuntemattomat sanat"
+
+#: main_window.glade.h:3
+msgid "This program is licensed under the GPL."
+msgstr "Tämä ohjelma on GPL-lisensoitu."
+
+msgid "Translator"
+msgstr "Kääntäjä"
+
